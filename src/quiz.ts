@@ -310,9 +310,7 @@ if (mainImage) {
   // ボタンが存在する場合（?.は「もしあれば」という意味）にクリックイベントを登録。
   // クリックされたら restartQuiz 関数が呼ばれてクイズが最初から始まる仕組みです。
   const restartButton = document.getElementById("restart");
-  restartButton?.addEventListener("click", () => {
-    window.location.href = "/";
-  });
+  restartButton?.addEventListener("click", restartQuiz);
 }
 
 // // クイズの状態をリセットします。
