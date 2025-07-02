@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EQ適性テスト</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>EQ適性テスト</h1>
+      <div id="mainImage" ><img src="./public/0.jpg"/></div>
+      <p>全25問／100点満点</p>
+      <p id="description">EQとは、「Emotional Intelligence Quotient」の略で、<br>日本語では<span>「心の知能指数」</span>と訳されることが多いです。<br>
+        IQ（知能指数）が論理的思考力や記憶力などの「頭の良さ」を表すのに対し、<br>EQは<span>自分や他人の感情を認識し、理解し、適切に対応する力</span>を表します。</p>
+      <div id="quiz-container"></div>
+    </div>
+    <script type="module" src="/src/quiz.ts"></script>
+  </body>
+</html>
