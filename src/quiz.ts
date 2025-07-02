@@ -270,28 +270,28 @@ if (mainImage) {
     let eqLevel = ""; //EQレベルの説明文を入れるための空の文字列変数を用意
     let eqLevelImage = ""; //画像
     if (score <= 12) {
-      eqLevelImage = "/eq-test/1.jpg";
+      eqLevelImage = "/1.jpg";
       eqLevel = "あなたのEQは【とても低い】です。<br>感情の認識や表現が難しく、ストレスや対人関係で苦労することが多いかもしれません。<br>まずは自分の感情に気づく練習から始めましょう。";
     } else if (score <= 25) {
-      eqLevelImage = "/eq-test/2.jpg";
+      eqLevelImage = "/2.jpg";
       eqLevel = "あなたのEQは【低い】です。<br>感情のコントロールや理解にまだ課題があります。<br>自己理解を深め、感情の整理や適切な表現を意識すると良いでしょう。";
     } else if (score <= 38) {
-      eqLevelImage = "/eq-test/3.jpg";
+      eqLevelImage = "/3.jpg";
       eqLevel = "あなたのEQは【やや低い】です。<br>基本的な感情の把握はできていますが、ストレス時の対応や他者の感情理解には改善の余地があります。<br>日常的に感情を振り返る習慣を持つことが役立ちます。";
     } else if (score <= 50) {
-      eqLevelImage = "/eq-test/4.jpg";
+      eqLevelImage = "/4.jpg";
       eqLevel = "あなたのEQは【普通】です。<br>自分や他人の感情をある程度理解し、日常生活でのコミュニケーションも安定しています。<br>さらに感情知能を伸ばすことで、より良い人間関係が築けるでしょう。";
     } else if (score <= 62) {
-      eqLevelImage = "/eq-test/5.jpg";
+      eqLevelImage = "/5.jpg";
       eqLevel = "あなたのEQは【やや高い】です。<br>感情のコントロールや共感力があり、周囲との調和を大切にしています。<br>時には感情の深掘りや表現力を磨くと、さらに強みが活きます。";
     } else if (score <= 75) {
-      eqLevelImage = "/eq-test/6.jpg";
+      eqLevelImage = "/6.jpg";
       eqLevel = "あなたのEQは【高い】です。<br>ストレス管理や対人スキルに優れ、他者の感情も敏感に察知できます。<br>リーダーシップやチームワークにおいても信頼される存在なのではないでしょうか。";
     } else if (score <= 87) {
-      eqLevelImage = "/eq-test/7.jpg";
+      eqLevelImage = "/7.jpg";
       eqLevel = "あなたのEQは【とても高い】です。<br>感情を的確に理解し、柔軟に対応できるため、人間関係で大きな強みとなっています。<br>困難な状況でも冷静に対処でき、周囲の支えになっている存在なのではないでしょうか。";
     } else {
-      eqLevelImage = "/eq-test/8.jpg";
+      eqLevelImage = "/8.jpg";
       eqLevel = "あなたのEQは【非常に高い】です。<br>感情知能の面で非常に優れており、自己理解・他者理解ともに深いレベルにあります。<br>複雑な感情の管理や調整が得意で、周囲に良い影響を与える素晴らしい資質の持ち主なのではないでしょうか。";
     }
 
@@ -320,7 +320,7 @@ if (mainImage) {
 // // 最後に renderQuestion() を呼んで、最初の問題を表示します。
 function restartQuiz(): void {
   // TOPページ（例：index.html）へリダイレクト
-  window.location.href = "/eq-test/index.html";
+  window.location.href = "/";
 }
 
 // 初期表示
