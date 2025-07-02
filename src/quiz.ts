@@ -319,21 +319,8 @@ if (mainImage) {
 // // userAnswers（ユーザーの答えの配列）を空にする
 // // 最後に renderQuestion() を呼んで、最初の問題を表示します。
 function restartQuiz(): void {
-  currentQuestionIndex = 0;
-  score = 0;
-  userAnswers = [];
-
-  const description = document.getElementById("description");
-  if (description) {
-    // 説明文を元に戻して表示
-    description.innerHTML = `
-EQとは、「Emotional Intelligence Quotient」の略で、<br>日本語では<span>「心の知能指数」</span>と訳されることが多いです。<br>
-        IQ（知能指数）が論理的思考力や記憶力などの「頭の良さ」を表すのに対し、<br>EQは<span>自分や他人の感情を認識し、理解し、適切に対応する力</span>を表します。
-    `;
-    description.style.display = "block";
-  }
-
-  renderQuestion();
+  // TOPページ（例：index.html）へリダイレクト
+  window.location.href = "/eq-test/index.html";
 }
 
 // 初期表示
