@@ -276,13 +276,13 @@ if (mainImage) {
       eqLevelImage = "/eq-test/2.jpg";
       eqLevel = "あなたのEQは【低い】です。<br>感情のコントロールや理解にまだ課題があります。<br>自己理解を深め、感情の整理や適切な表現を意識すると良いでしょう。";
     } else if (score <= 38) {
-      eqLevelImage = "/eq-test/.jpg";
+      eqLevelImage = "/eq-test/3.jpg";
       eqLevel = "あなたのEQは【やや低い】です。<br>基本的な感情の把握はできていますが、ストレス時の対応や他者の感情理解には改善の余地があります。<br>日常的に感情を振り返る習慣を持つことが役立ちます。";
     } else if (score <= 50) {
-      eqLevelImage = "/eq-test/.jpg";
+      eqLevelImage = "/eq-test/4.jpg";
       eqLevel = "あなたのEQは【普通】です。<br>自分や他人の感情をある程度理解し、日常生活でのコミュニケーションも安定しています。<br>さらに感情知能を伸ばすことで、より良い人間関係が築けるでしょう。";
     } else if (score <= 62) {
-      eqLevelImage = "/eq-test/.jpg";
+      eqLevelImage = "/eq-test/5.jpg";
       eqLevel = "あなたのEQは【やや高い】です。<br>感情のコントロールや共感力があり、周囲との調和を大切にしています。<br>時には感情の深掘りや表現力を磨くと、さらに強みが活きます。";
     } else if (score <= 75) {
       eqLevelImage = "/eq-test/6.jpg";
