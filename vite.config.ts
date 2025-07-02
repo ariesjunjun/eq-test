@@ -2,5 +2,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/eq-test-0001/',
+  base: './', // ← これに変更！
 });
